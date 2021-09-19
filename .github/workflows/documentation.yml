@@ -42,7 +42,7 @@ jobs:
           GIT_USER: fangmd
         run: |
           git config --global user.email "fangmingdong0224@gmail.com"
-          git config --global user.name "fangmingdong"
+          git config --global user.name "fangmd"
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
