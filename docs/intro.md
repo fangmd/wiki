@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-auto deploy test  3
+auto deploy test  4
 
 ## Getting Started
 

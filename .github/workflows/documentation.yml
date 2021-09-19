@@ -53,6 +53,7 @@ jobs:
         env:
           USE_SSH: true
           GIT_USER: fangmd
+          DEPLOYMENT_BRANCH: master
         run: |
           git config --global user.email "fangmingdong0224@gmail.com"
           git config --global user.name "fangmd"
