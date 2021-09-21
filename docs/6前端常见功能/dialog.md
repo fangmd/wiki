@@ -8,6 +8,10 @@ sidebar_position: 1
 
 完整 Demo: [https://github.com/fangmd/wiki-demo/blob/master/dialog/index.html](https://github.com/fangmd/wiki-demo/blob/master/dialog/index.html)
 
+已测试环境:
+
+- [x] PC Chrome
+
 ## 功能拆解
 
 1. 点击按钮，显示弹框
