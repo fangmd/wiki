@@ -120,13 +120,21 @@ function showDialog() {
 
 ---
 
-```html
-document.querySelector('.mask').addEventListener('click', () => {
-console.log('cancel'); hideDialog() })
-document.querySelector('.cancel').addEventListener('click', () => {
-console.log('cancel'); hideDialog() })
-document.querySelector('.confirm').addEventListener('click', (event) => {
-console.log('confirm'); hideDialog() })
+```js
+document.querySelector(".mask").addEventListener("click", () => {
+  console.log("cancel")
+  hideDialog()
+})
+
+document.querySelector(".cancel").addEventListener("click", () => {
+  console.log("cancel")
+  hideDialog()
+})
+
+document.querySelector(".confirm").addEventListener("click", (event) => {
+  console.log("confirm")
+  hideDialog()
+})
 ```
 
 添加点击事件
@@ -153,6 +161,7 @@ function hideDialog() {
   document.querySelector(".mask").style.display = "none"
   document.querySelector(".dialog").style.display = "none"
 }
+
 function showDialog() {
   document.body.style.overflow = "hidden"
   document.querySelector(".mask").style.display = "block"
